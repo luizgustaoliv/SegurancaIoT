@@ -128,6 +128,3 @@ Alto, devido à combinação de alta probabilidade + impacto significativo.
 &emsp;A análise demonstrou que o servidor web em ESP32, apesar de funcional e didático, apresenta diversas vulnerabilidades críticas que podem ser exploradas com facilidade dentro de uma rede local. Vulnerabilidades como falta de autenticação, comunicação sem criptografia e exposição de endpoints sem controle permitem ataques que variam desde simples manipulação indevida até interceptação de tráfego.
 
 &emsp;As análises desenvolvidas reforçam a importância de incorporar práticas básicas de segurança em dispositivos IoT, como autenticação, criptografia (TLS/HTTPS), sanitização adequada de entradas, segregação de redes e revisão do firmware.
-
-(Espaço para você complementar com a visão do seu grupo ou recomendações específicas)
-→ [ADICIONAR AQUI]
