@@ -46,6 +46,8 @@ O ESP32 pode travar ou reiniciar quando recebe um volume excessivo de requisiç�
 
 ## 4. Ataques Identificados
 
+[Planilhas](https://docs.google.com/spreadsheets/d/1z1czDqkwxRY4-wi6U1gx47EGtI26L0anEBhk2fmlzCM/edit?gid=0#gid=0)
+
 &emsp;A seguir estão descritos dois ataques distintos, completos, didáticos e prontos para o relatório.
 
 ### Ataque 1 - DDos
