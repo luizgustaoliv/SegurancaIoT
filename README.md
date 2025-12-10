@@ -123,7 +123,33 @@ Alto, devido à combinação de alta probabilidade + impacto significativo.
  <sup>Fonte: Elaborado pelos autores (2025)</sup>
 </div>
 
-## 7. Conclusão
+## 7. Teste de Ataque Ddnos(Análise Dinâmica)
+
+&emsp;A imagem mostra o cenário do teste de ataque realizado manualmente em um módulo ESP32 montado sobre uma protoboard, conectada a um notebook via USB. A tela do computador exibe a mensagem:
+
+<div align="center">
+<img src="./assets/ddos2.jpeg" alt="Led 1 Desligado e Led 2 Ligado"><br>
+ <sup>Fonte: Elaborado pelos autores (2025)</sup>
+</div>
+
+#### Análise Técnica
+
+A indisponibilidade da página confirma que o ESP32 foi sobrecarregado por múltiplas requisições simultâneas geradas pelo software de ataque.
+
+O resultado é o comportamento esperado em dispositivos embarcados com baixo poder de processamento quando submetidos a ataques DDoS:
+
+ - queda temporária do servidor local,
+ - timeout das requisições
+ - e eventualmente reinicialização automática do firmware.
+
+<div align="center">
+<img src="./assets/ddosvideo.mp4" alt="Led 1 Desligado e Led 2 Ligado"><br>
+ <sup>Fonte: Elaborado pelos autores (2025)</sup>
+</div>
+
+&emsp;O vídeo documenta a execução do teste de ataque DDoS contra o ESP32. Durante o registro, é possível observar o software responsável por realizar o ataque DDoS simulado, enviando múltiplas requisições consecutivas ao IP do dispositivo e tentativas de acesso ao endereço do ESP32 enquanto o ataque está ativo, mostrando o comportamento de indisponibilidade resultando a resposta lenta ou inexistente do microcontrolador durante a sobrecarga.
+
+## 8. Conclusão
 
 &emsp;A análise demonstrou que o servidor web em ESP32, apesar de funcional e didático, apresenta diversas vulnerabilidades críticas que podem ser exploradas com facilidade dentro de uma rede local. Vulnerabilidades como falta de autenticação, comunicação sem criptografia e exposição de endpoints sem controle permitem ataques que variam desde simples manipulação indevida até interceptação de tráfego.
 
