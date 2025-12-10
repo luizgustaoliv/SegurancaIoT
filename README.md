@@ -46,8 +46,6 @@ O ESP32 pode travar ou reiniciar quando recebe um volume excessivo de requisiç�
 
 ## 4. Ataques Identificados
 
-[Planilhas](https://docs.google.com/spreadsheets/d/1z1czDqkwxRY4-wi6U1gx47EGtI26L0anEBhk2fmlzCM/edit?gid=0#gid=0)
-
 &emsp;A seguir estão descritos dois ataques distintos, completos, didáticos e prontos para o relatório.
 
 ### Ataque 1 - DDos
@@ -91,10 +89,7 @@ Alto, devido à combinação de alta probabilidade + impacto significativo.
 
 ## 5. Tabela Consolidada dos Ataques
 
-(adicionar tabela)
-
-(Espaço para a tabela final da TURMA, conforme solicitado pelo barema)
-→ [ADICIONAR AQUI A TABELA CONSOLIDADA FINAL]
+[Planilhas](https://docs.google.com/spreadsheets/d/1z1czDqkwxRY4-wi6U1gx47EGtI26L0anEBhk2fmlzCM/edit?gid=0#gid=0)
 
 ## 6. Análise Dinâmica — Teste Real em Protoboard
 
@@ -142,10 +137,7 @@ O resultado é o comportamento esperado em dispositivos embarcados com baixo pod
  - timeout das requisições
  - e eventualmente reinicialização automática do firmware.
 
-<div align="center">
-<img src="./assets/ddosvideo.mp4" alt="Led 1 Desligado e Led 2 Ligado"><br>
- <sup>Fonte: Elaborado pelos autores (2025)</sup>
-</div>
+[Vídeo](https://drive.google.com/file/d/16-ak6YCfgXCpld3CFKURDGHxqsiKGXmU/view?usp=sharing)
 
 &emsp;O vídeo documenta a execução do teste de ataque DDoS contra o ESP32. Durante o registro, é possível observar o software responsável por realizar o ataque DDoS simulado, enviando múltiplas requisições consecutivas ao IP do dispositivo e tentativas de acesso ao endereço do ESP32 enquanto o ataque está ativo, mostrando o comportamento de indisponibilidade resultando a resposta lenta ou inexistente do microcontrolador durante a sobrecarga.
 
